@@ -385,23 +385,23 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.classList.add('loaded');
         
         // Animate elements on load
-        anime({
-            targets: '.gradient-text',
-            opacity: [0, 1],
-            translateY: [30, 0],
-            delay: anime.stagger(200),
-            duration: 1000,
-            easing: 'easeOutCubic'
-        });
+        // anime({
+        //     targets: '.gradient-text',
+        //     opacity: [0, 1],
+        //     translateY: [30, 0],
+        //     delay: anime.stagger(200),
+        //     duration: 1000,
+        //     easing: 'easeOutCubic'
+        // });
         
-        anime({
-            targets: '.floating',
-            opacity: [0, 1],
-            scale: [0.8, 1],
-            duration: 1500,
-            delay: 500,
-            easing: 'easeOutCubic'
-        });
+        // anime({
+        //     targets: '.floating',
+        //     opacity: [0, 1],
+        //     scale: [0.8, 1],
+        //     duration: 1500,
+        //     delay: 500,
+        //     easing: 'easeOutCubic'
+        // });
     });
 });
 
