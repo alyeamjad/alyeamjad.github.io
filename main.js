@@ -245,23 +245,23 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
     
-    // Text animation for hero section
-    anime.timeline({
-        easing: 'easeOutExpo',
-        duration: 1000
-    })
-    .add({
-        targets: '.gradient-text',
-        opacity: [0, 1],
-        translateY: [50, 0],
-        delay: anime.stagger(200)
-    })
-    .add({
-        targets: '.floating',
-        opacity: [0, 1],
-        scale: [0.8, 1],
-        duration: 1500
-    }, '-=500');
+    // // Text animation for hero section
+    // anime.timeline({
+    //     easing: 'easeOutExpo',
+    //     duration: 1000
+    // })
+    // .add({
+    //     targets: '.gradient-text',
+    //     opacity: [0, 1],
+    //     translateY: [50, 0],
+    //     delay: anime.stagger(200)
+    // })
+    // .add({
+    //     targets: '.floating',
+    //     opacity: [0, 1],
+    //     scale: [0.8, 1],
+    //     duration: 1500
+    // }, '-=500');
     
     // Skill badges hover effect
     document.querySelectorAll('.skill-badge').forEach(badge => {
